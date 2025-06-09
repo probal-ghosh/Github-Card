@@ -48,17 +48,21 @@
     }
 }
 
-/* .github{
-    animation: slidefromleft 2.1s ease-out;
 
-} */
+.github{
+    /* animation: slidefromleft 1.7s ease-out; */
+    /* border: 1px solid black; */
+    width: fit-content;
+}
+.details{
+    /* animation: slidefromleft 1.7s ease-out; */
+    /* border: 1px solid black; */
+    width: fit-content;
+}
 .github:hover{
     animation: shake 2.4s infinite ease-in-out;
 }
 
-/* .details{
-    animation: slidefromleft 1.7s ease-out;
-} */
 
 .details:hover{
     animation: shake 2.1s infinite ease-in-out;

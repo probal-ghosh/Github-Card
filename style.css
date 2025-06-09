@@ -24,7 +24,7 @@
     /* border: 1px solid rgb(201, 18, 18); */
     border: null;
     font-size: 3rem;
-    font-family: cursive;
+    font-family: "Exo", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,7 +60,7 @@
     margin: 0.8rem;
     height: 5vh;
     border-radius: 13px;
-    font-family: algerian;
+    font-family: "Exo", sans-serif;
     font-weight: 600;
     font-size: larger;
     display: flex;
@@ -118,7 +118,7 @@
     background-color: rgb(29, 140, 225);
     font-size: 2.2rem;
     font-weight: bold;
-    font-family: cursive;
+    font-family: "Exo", sans-serif;
     border-radius: 7px;
     width: 45%;
     display: flex;
@@ -154,7 +154,7 @@
     border-radius: 10px;
     background-color: rgb(102, 232, 79);
     width: 100%;
-    font-family: cursive;
+    font-family: "Exo", sans-serif;
     font-weight: bold;
     font-size: larger;
 }
@@ -249,6 +249,7 @@
 #error-message{
     height: 5%;
     width: 30%;
+    font-family: "Exo", sans-serif;
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
@@ -323,7 +324,7 @@
 
     .page-right{
         width: 95%;
-        height: 68vh;
+        height: 70vh;
         padding-top: 1rem;
     }
 

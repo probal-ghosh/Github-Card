@@ -69,10 +69,10 @@ function collectData(){
             const dataShow = function(){
                 card.innerHTML = `<div id="imageSection" style="border-bottom: 4px solid black; border-radius: 20px; display: flex; justify-content: center;"><img src="${image_url}" alt="Avatar" style="width: 75%; border-radius: 45px; padding: 15px;"></div>
                     <div id="others">
-                        <h2 style="margin: 0; font-family: monospace; font-size: 1.8rem;">${name}</h2>
-                        <p style="font-family: monospace; font-size: 1.2em;">${bio}</p>
-                        <p style="font-family: monospace; font-size: 1.2em;">Repository: ${repo}</p>
-                        <p style="font-family: monospace; font-size: 1.2em;">${location}</p>
+                        <h2 style="margin: 0; font-family: 'Exo', sans-serif; font-size: 1.5rem;">${name}</h2>
+                        <p style="font-family: 'Exo', sans-serif; font-size: 1em;">${bio}</p>
+                        <p style="font-family: 'Exo', sans-serif; font-size: 1em;">Repository: ${repo}</p>
+                        <p style="font-family: 'Exo', sans-serif; font-size: 1em;">${location}</p>
                     </div> `
             }
 

@@ -6,7 +6,8 @@ let errormessage = document.getElementById('error-message')
 
 function collectData(){
     let name, image_url, location, bio, status, repo;
-    let input = document.getElementById('input-div').value
+    let input_beta = document.getElementById('input-div').value
+    let input = input_beta.trim()
     //console.log(username);
 
     const url_beta = 'https://api.github.com/users/'

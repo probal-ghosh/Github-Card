@@ -1,7 +1,16 @@
 const search = document.getElementById('search')
 let paragraph = document.getElementById('paragraph')
 
-search.addEventListener('click', collectData)
+search.addEventListener('click', collectData) || addEventListener('keypress',
+    function(event){
+        if(event.key === 'Enter'){
+            event.preventDefault();
+            
+            document.getElementById('search').click()
+        }
+    }
+)
+
 let errormessage = document.getElementById('error-message')
 
 function collectData(){
